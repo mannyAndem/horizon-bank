@@ -1,0 +1,21 @@
+.faqs-section {
+  padding: 6rem 4rem;
+
+  .header {
+    display: flex;
+    gap: 1.25rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .faqs-section {
+    padding: 4rem 1rem;
+
+    .header {
+      text-align: center;
+    }
+  }
+}

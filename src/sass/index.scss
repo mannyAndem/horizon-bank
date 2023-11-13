@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap");
+@import "_variables";
+
+// Neue Montral fonts
+
+// regular font weight
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("../assets/fonts/Neue Montreal/NeueMontreal-Regular.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("../assets/fonts/Neue Montreal/NeueMontreal-Bold.otf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("../assets/fonts/Neue Montreal/NeueMontreal-Medium.otf");
+  font-weight: 500;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p,
+span,
+li {
+  color: $light-dark;
+  font-size: $md;
+  font-family: "Manrope";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+a {
+  color: $dark;
+  font-family: "Neue Montreal";
+}
+
+h1,
+h2 {
+  font-size: $xxl;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  h1,
+  h2 {
+    font-size: 2.25rem;
+  }
+}

@@ -1,0 +1,55 @@
+@import "../variables";
+
+.card-section {
+  padding-block: 6rem;
+
+  .container {
+    padding: 6rem 4rem;
+    background: $dark;
+    display: flex;
+    justify-content: center;
+
+    h2 {
+      color: #fff;
+    }
+    p {
+      color: $light-gray;
+    }
+
+    .img-container {
+      padding-right: 4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .text-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      gap: 1rem;
+      padding-left: 4rem;
+      border-left: 1px solid $pink;
+
+      button {
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .card-section {
+    .container {
+      padding: 4rem 1rem;
+      flex-direction: column-reverse;
+
+      .img-container {
+        padding-right: 0;
+      }
+      .text-container {
+        padding-left: 0;
+        border-left: none;
+      }
+    }
+  }
+}

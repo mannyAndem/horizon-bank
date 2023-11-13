@@ -1,0 +1,11 @@
+@import "../_variables";
+
+.orange-button {
+  padding: 1rem 1.5rem;
+  background-color: $orange;
+  border-radius: 8px;
+  color: #fff;
+  font-size: $md;
+  border: 1px solid $orange;
+  cursor: pointer;
+}

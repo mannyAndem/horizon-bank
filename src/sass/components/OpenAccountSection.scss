@@ -1,0 +1,32 @@
+@import "../variables";
+
+.open-account-section {
+  padding: 6rem 4rem;
+
+  div {
+    background: $light-pink;
+    padding: 6rem 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 32px;
+    text-align: center;
+
+    button {
+      margin-top: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .open-account-section {
+    padding: 4rem 1rem;
+
+    div {
+      background: $light-pink;
+      padding: 4rem 2rem;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@import "../variables";
+
+.hero-section {
+  padding-block: 6rem;
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  padding-inline: 6rem;
+}
+.img-container {
+  margin-top: 4rem;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container {
+    padding-inline: 1rem;
+  }
+}

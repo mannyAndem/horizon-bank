@@ -1,0 +1,51 @@
+@import "../variables";
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  .number {
+    font-weight: 700;
+    font-size: $lg;
+  }
+
+  li {
+    list-style: none;
+    padding: 1rem 0.75rem;
+    border-bottom: 1px solid $light-dark;
+    height: min-content;
+
+    .accordion-btn {
+      cursor: pointer;
+    }
+
+    & > div:first-child {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      div {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+    & > div:last-child {
+      padding-left: 2.25rem;
+      padding-top: 1rem;
+      transform-origin: top;
+    }
+    .not-expanded {
+      // transform: scaleY(0);
+      // transition: all 300ms ease-out;
+      display: none;
+    }
+    .expanded {
+      // transform: scaleY(1);
+      // transition: all 300ms ease-out;
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.slider {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  justify-content: center;
+
+  .arrow {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .slides-container {
+    display: flex;
+    width: 70%;
+    overflow-x: hidden;
+    flex-wrap: nowrap;
+    justify-content: start;
+    .slide {
+      flex-shrink: 0;
+      width: 100%;
+      transition: all 500ms ease-out;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .slider {
+    gap: 1rem;
+
+    .arrow {
+      padding: 0;
+    }
+
+    .slides-container {
+      width: 100%;
+    }
+  }
+}

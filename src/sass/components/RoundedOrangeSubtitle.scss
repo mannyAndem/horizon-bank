@@ -1,0 +1,11 @@
+@import "../_variables";
+
+.rounded-orange-subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $orange;
+  border-radius: 2rem;
+  padding: 4px 8px;
+  width: max-content;
+}

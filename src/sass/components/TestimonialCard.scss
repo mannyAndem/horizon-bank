@@ -1,0 +1,47 @@
+@import "../variables";
+
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border: 1px solid $dark-gray;
+  border-radius: 1.5rem;
+
+  .details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+    border-bottom: 1px solid $dark-gray;
+
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .content {
+    padding: 2rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .testimonial-card {
+    padding: 0.75rem;
+
+    .details {
+      padding: 1rem;
+      gap: 1rem;
+      text-wrap: nowrap;
+
+      span {
+        font-size: 14px;
+      }
+    }
+    .content {
+      padding: 1rem;
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+}
