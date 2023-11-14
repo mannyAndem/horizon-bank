@@ -11,7 +11,8 @@ const Accordion = ({ questions }) => {
 
     gsap.from(".accordion-item", {
       scrollTrigger: {
-        trigger: ".faqs-section",
+        trigger: ".accordion",
+        start: window.innerWidth > 768 && "top",
       },
 
       stagger: 0.5,

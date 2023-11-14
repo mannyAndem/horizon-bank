@@ -12,28 +12,31 @@ const About = () => {
       id: 1,
       question: "What services do you offer for personal banking?",
       answer:
-        "We offer some boring shit yunno. pinmpikntmuojpk mi4pktnmg5ipktm 3ojtgmr0ipkngmgrojk ngetojfnbmtujokn9e unmu9ojknourngmu9jgokn 95uoingm e0ourpingm5pritmw nwm0tnfm3joktngmv 3 uoipntmu4tnm3o nk n9oungmi0gknmg uopk3;ngmop3k;nm p3n m0p3ikntm0 ip3l m0pi ljnm0ip knm uoipm uoip nuoipknmop k;nmo jkn ioj bbtuyb uiyuj bnyuojb n8yuihn8y uhibny8u hn9u oihn8yuoihnm 9uoihn8yubn8y9uoikh ",
+        "We offer various services at Horizon. Account opening, savings and current accounts, fixed deposits, overdrafts and loans are amongs the numerous services we offer our customers.",
     },
     {
       id: 2,
       question: "Commitment to security",
-      answer: "By signing up mf.",
+      answer:
+        "We are committed to ensuring your funds are safe and secure. While you focus on making those millions, allow us keep it safe on your behalf.",
     },
     {
       id: 3,
       question: "Tailored services",
-      answer: "What you need a loan for? We both know you ain't paying up.",
+      answer:
+        "We provide tailored banking services to suit your individual and business needs. Whatever your preferences, you can be sure there's a service just for you.",
     },
     {
       id: 4,
       question: "Community support",
-      answer: "You login?",
+      answer:
+        "We aren't just a bank. We're a family. By joining Horizon, you join a community of other brilliant individuals, innovating across Africa and the world.",
     },
     {
       id: 5,
       question: "Expert focus",
       answer:
-        "Do whatever tf you want man, you'll still lose your money someway, somehow.",
+        "We're professionals. Our diverse force of experts are always on hand to give you the best savings and investment advice to boost your income.",
     },
   ];
 

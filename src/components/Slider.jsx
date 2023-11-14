@@ -20,8 +20,9 @@ const Slider = ({ content }) => {
         <img src={arrowLeft} />
       </div>
       <div className="slides-container">
-        {content.map((item) => (
+        {content.map((item, index) => (
           <div
+            key={index}
             className="slide"
             style={{ translate: `${-100 * sliderPostion}%` }}
           >

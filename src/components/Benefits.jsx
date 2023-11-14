@@ -30,9 +30,8 @@ const Benefits = () => {
       <div className="grid-container">
         {/* benfits card */}
         <div className="benefits-card">
-          <div className="img-container">
-            <img src={lessTransactionImg} alt="Less transaction fees" />
-          </div>
+          <img src={lessTransactionImg} alt="Less transaction fees" />
+
           <div className="text">
             <h3>Less Transaction Fees</h3>
             <p>
@@ -43,9 +42,8 @@ const Benefits = () => {
           </div>
         </div>
         <div className="benefits-card">
-          <div className="img-container">
-            <img src={customerSupport} alt="Better customer support" />
-          </div>
+          <img src={customerSupport} alt="Better customer support" />
+
           <div className="text">
             <h3>24/7 Customer Support</h3>
             <p>
@@ -56,9 +54,8 @@ const Benefits = () => {
           </div>
         </div>
         <div className="benefits-card">
-          <div className="img-container">
-            <img src={accountManagement} alt="Online account management" />
-          </div>
+          <img src={accountManagement} alt="Online account management" />
+
           <div className="text">
             <h3>Online Account Management</h3>
             <p>
@@ -68,9 +65,8 @@ const Benefits = () => {
           </div>
         </div>
         <div className="benefits-card">
-          <div className="img-container">
-            <img src={instantTransactions} alt="Instant transactions" />
-          </div>
+          <img src={instantTransactions} alt="Instant transactions" />
+
           <div className="text">
             <h3>Instant Transactions</h3>
             <p>

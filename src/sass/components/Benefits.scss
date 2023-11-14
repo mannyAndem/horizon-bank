@@ -14,21 +14,22 @@
   margin-block: 4rem;
 }
 .benefits-card {
-  padding: 1.5rem;
+  padding: 1.5rem 1.5rem;
   background: $gray;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  transition: box-shadow 300ms ease-out;
+  cursor: default;
 
-  .img-container {
-    height: 50%;
+  &:hover {
+    box-shadow: 7px 7px 3px #00000011;
+  }
 
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+  img {
+    width: 100%;
+    object-fit: cover;
   }
 
   .text {
@@ -45,7 +46,7 @@
 
 @media screen and (max-width: 768px) {
   .benefits-section {
-    padding: 6rem 1rem;
+    padding: 4rem 1rem;
   }
   .grid-container {
     grid-template-columns: 1fr;
